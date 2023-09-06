@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.color-defu{
+    color: #777;
+}
+.logo{
+    color:orangered;
+    font-weight: bolder;
+}
+.head{
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+
+}
+.row{
+   margin-top: 20px !important;
+   padding-top: 20px;
+}
+.botn{
+    display: inline-block;
+    border-radius:30px;
+    background-color: orangered ;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+.home-page{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+/* products section */
+.product{
+    height: 50vh;
+    margin: auto;
+    /* background-color: yellowgreen; */
+    text-align: center;
+    transition: transform,0.1s;
+}
+.product img{
+    height: 100%;
+    /* width: 75% !important; */
+}
+.product img:hover{
+    transform: translateY(-15px);
+}
+
+.catogiry{
+    /* background-color: yellowgreen; */
+}
+.catogiry img{
+    height: 35vh;
+}
+.rating{
+    color: orangered;
+    font-weight: 500;
+}
+.anami{
+    transition: transform,0.1s;
+    width:80%;
+    margin:auto !important;
+}
+.catogiry:hover{
+    transform: translateY(-15px);
+}
+/* offer div */
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    /* height:60vh; */
+}
+.offer img{
+    border-radius:30%;
+}
+.offer-brand{
+    transition: width,1s;
+}
+.offer-brand img:hover{
+    width:120% !important;
+}
+
+/* testimonial section  */
+
+.member img{
+    height: 10vh;
+    width: 25%;
+    border-radius: 50%;
+}
+.testimonial{
+    transition:transform,3s;
+}
+.member{
+    margin:10px;
+    cursor: pointer;
+}
+.member:hover{
+    transform:translateY(-10px);
+}
+/* about section */
+.fa-quote-left{
+    font-size: 2.5rem;
+}
+
+/* brand section */
+
+.brand img{
+    width: 75% !important;
+    cursor: pointer;
+    filter:grayscale(100%);
+}
+.brand img:hover{
+    filter:grayscale(0);
+}
+.social i:hover{
+    color: orangered !important;
+    font-size:1.8rem;
+}
+
